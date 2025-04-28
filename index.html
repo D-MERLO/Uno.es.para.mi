@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uno es para mi</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="icon" type="image/png" href=""> -->
+
+</head>
+
+<body>
+    <!-- <img src="/logo.png" class="logo" alt="Logo ¿Uno es para mi?"> -->
+
+    <div class="container">
+        <button class="btn" onclick="openModal('modal1')">Lo que hago - Mis objetivos</button>
+        <button class="btn" onclick="openModal('modal2')">Propuestas y Servicios</button>
+        <button class="btn" onclick="openModal('modal3')">Beneficios</button>
+        <button class="btn" onclick="openModal('modal4')">Preguntas frecuentes</button>
+        <button class="btn" onclick="openModal('modal5')">Contacto</button>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Lo que hago</h2>
+            <p></p>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Propuestas y Servicios</h2>
+            <p></p>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Beneficios</h2>
+            <p>¿Por qué elegirnos?</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Preguntas frecuentes</h2>
+            <section class="faq">
+                <details>
+                    <summary>¿?</summary>
+                    <p>¡!</p>
+                </details>
+                <details>
+                    <summary>¿?</summary>
+                    <p>¡!</p>
+                </details>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal" id="modal5">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h2>Contacto</h2>
+            <p>No dudes en escribirnos!</p>
+            <a href="https://www.instagram.com/   TUCUENTA   " target="_blank" rel="noopener noreferrer"
+                class="enlace">
+                ¡Consultá por Instagram aquí!
+            </a>
+            <a href="https://www.facebook.com/   TUCUENTA   " target="_blank" rel="noopener noreferrer"
+                class="enlace">
+                ¡Consultá por Facebook aquí!
+            </a>
+            <!-- <a href="https://wa.me/   TUNUMERO   " target="_blank" rel="noopener noreferrer" class="enlace">
+                ¡Consultá por WhatsApp aquí!
+            </a> -->
+              
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
